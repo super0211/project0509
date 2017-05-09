@@ -450,37 +450,37 @@ body {
 	font-family: "微软雅黑";
 	font-size: 12px;
 }
-.print-bg {
+.print-container {
 	position: relative;
 	width: 870px;
 	height: 482px;
 	/*background: #ccc;*/
 	color: #000;
 }
-.name {
+.sf-container .name {
 	position: absolute;
 	top: 202px;
 	left: 361px;
 }
-.addr {
+.sf-container .addr {
 	position: absolute;
 	top: 228px;
 	left: 114px;
 }
-.addr span {
+.sf-container .addr span {
 	display: inline-block;
 	text-align: center;
 }
-.addr .province {
+.sf-container .addr .province {
 	width: 114px;
 }
-.addr .city {
+.sf-container .addr .city {
 	width: 68px;
 }
-.addr .area {
+.sf-container .addr .area {
 	width: 57px;
 }
-.detail {
+.sf-container .detail {
 	display: block;
 	position: absolute;
 	width: 342px;
@@ -488,37 +488,37 @@ body {
 	left: 95px;
 	text-align: left;
 }
-.phone {
+.sf-container .phone {
 	position: absolute;
 	width: 285px;
 	top: 282px;
 	left: 152px;
 	text-align: left;
 }
-.goods-info {
+.sf-container .goods-info {
 	position: absolute;
 	top: 327px;
 	left: 95px;
 	width: 95px;
 	text-align: left;
 }
-.num {
+.sf-container .num {
 	position: absolute;
 	top: 350px;
 	left: 236px;
 }
-.time {
+.sf-container .time {
 	position: absolute;
 	top: 435px;
 	left: 302px;
 	font-style: italic;
 }
-.time span {
+.sf-container .time span {
 	display: inline-block;
 }
-.time .month {
+.sf-container .time .month {
 	width: 38px;
 }
-.time .day {
+.sf-container .time .day {
 	width: 30px;
 }
