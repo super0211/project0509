@@ -460,20 +460,20 @@ body {
 /*顺丰快递单*/
 .sf-container .name {
 	position: absolute;
-	top: 205px;
+	top: 210px;
 	left: 293px;
 }
 .sf-container .addr {
 	position: absolute;
-	top: 228px;
-	left: 57px;
+	top: 235px;
+	left: 40px;
 }
 .sf-container .addr span {
 	display: inline-block;
 	text-align: center;
 }
 .sf-container .addr .province {
-	width: 114px;
+	width: 110px;
 }
 .sf-container .addr .city {
 	width: 68px;
@@ -485,38 +485,39 @@ body {
 	display: block;
 	position: absolute;
 	width: 342px;
-	top: 259px;
-	left: 19px;
+	top: 265px;
+	left: 0px;
 	text-align: left;
 }
 .sf-container .phone {
 	position: absolute;
 	width: 285px;
-	top: 285px;
+	top: 298px;
 	left: 76px;
 	text-align: left;
 }
 .sf-container .goods-info {
 	position: absolute;
-	top: 331px;
-	left: 19px;
+	top: 352px;
+	left: 0px;
 	width: 95px;
 	text-align: left;
 }
 .sf-container .num {
 	position: absolute;
-	top: 353px;
+	top: 370px;
 	left: 160px;
 }
 .sf-container .time {
 	position: absolute;
-	top: 441px;
-	left: 38px;
+	top: 480px;
+	left: 25px;
 	font-style: italic;
 }
 .sf-container .time span {
 	display: inline-block;
 	text-align: center;
+	margin-right: 25px;
 }
 .sf-container .time .month {
 	width: 38px;
@@ -527,23 +528,25 @@ body {
 /*申通快递单*/
 .st-container .name {
 	position: absolute;
-	top: 114px;
+	top: 112px;
 	left: 437px;
 }
 .st-container .addr {
 	position: absolute;
-	top: 171px;
+	top: 170px;
 	left: 418px;
 }
 .st-container .addr span {
 	display: inline-block;
 	text-align: center;
+	margin-right: 20px;
 }
 .st-container .addr .province {
 	width: 57px;
 }
 .st-container .addr .city {
 	width: 57px;
+	margin-right: 20px;
 }
 .st-container .addr .area {
 	width: 46px;
@@ -559,30 +562,34 @@ body {
 .st-container .phone {
 	position: absolute;
 	width: 247px;
-	top: 217px;
+	top: 225px;
 	left: 456px;
 	text-align: left;
 }
 .st-container .goods-info {
 	position: absolute;
-	top: 262px;
-	left: 152px;
+	top: 265px;
+	left: 140px;
 	width: 198px;
 	text-align: left;
 }
 .st-container .num {
 	position: absolute;
-	top: 285px;
-	left: 209px;
+	top: 295px;
+	left: 200px;
 }
 .st-container .time {
 	position: absolute;
-	top: 118px;
-	left: 209px;
+	top: 112px;
+	left: 186px;
 	font-style: italic;
 }
 .st-container .time span {
 	display: inline-block;
 	width: 23px;
 	text-align: center;
+	margin-right: 20px;
+}
+.st-container .time .month ,.st-container .time .day {
+	width: 23px;
 }
