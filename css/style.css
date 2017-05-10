@@ -516,6 +516,7 @@ body {
 }
 .sf-container .time span {
 	display: inline-block;
+	text-align: center;
 }
 .sf-container .time .month {
 	width: 38px;
@@ -558,8 +559,8 @@ body {
 .st-container .phone {
 	position: absolute;
 	width: 247px;
-	top: 456px;
-	left: 217px;
+	top: 217px;
+	left: 456px;
 	text-align: left;
 }
 .st-container .goods-info {
@@ -583,4 +584,5 @@ body {
 .st-container .time span {
 	display: inline-block;
 	width: 23px;
+	text-align: center;
 }
