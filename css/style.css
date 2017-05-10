@@ -458,30 +458,30 @@ body {
 	color: #000;
 }
 /*顺丰快递单*/
-.sf-container .name {
+.sf-container  .recipient-wrap .name {
 	position: absolute;
 	top: 210px;
 	left: 293px;
 }
-.sf-container .addr {
+.sf-container  .recipient-wrap .addr {
 	position: absolute;
 	top: 235px;
 	left: 40px;
 }
-.sf-container .addr span {
+.sf-container  .recipient-wrap .addr span {
 	display: inline-block;
 	text-align: center;
 }
-.sf-container .addr .province {
+.sf-container  .recipient-wrap .addr .province {
 	width: 110px;
 }
-.sf-container .addr .city {
+.sf-container  .recipient-wrap .addr .city {
 	width: 68px;
 }
-.sf-container .addr .area {
+.sf-container  .recipient-wrap .addr .area {
 	width: 57px;
 }
-.sf-container .detail {
+.sf-container  .recipient-wrap .detail {
 	display: block;
 	position: absolute;
 	width: 342px;
@@ -489,7 +489,7 @@ body {
 	left: 0px;
 	text-align: left;
 }
-.sf-container .phone {
+.sf-container .recipient-wrap .phone {
 	position: absolute;
 	width: 285px;
 	top: 298px;
@@ -525,33 +525,49 @@ body {
 .sf-container .time .day {
 	width: 30px;
 }
+.sf-container .sender-wrap .name {
+	position: absolute;
+	top: 122px;
+	left: 84px;
+	width: 145px;
+}
+.sf-container .sender-wrap .addr {
+	position: absolute;
+	top: 148px;
+	left: 38px;
+}
+.sf-container .sender-wrap .phone {
+	position: absolute;
+	top: 179px;
+	left: 76px;	
+}
 /*申通快递单*/
-.st-container .name {
+.st-container .recipient-wrap .name {
 	position: absolute;
 	top: 112px;
 	left: 437px;
 }
-.st-container .addr {
+.st-container  .recipient-wrap .addr {
 	position: absolute;
 	top: 170px;
 	left: 418px;
 }
-.st-container .addr span {
+.st-container  .recipient-wrap .addr span {
 	display: inline-block;
 	text-align: center;
 	margin-right: 20px;
 }
-.st-container .addr .province {
+.st-container  .recipient-wrap .addr .province {
 	width: 57px;
 }
-.st-container .addr .city {
+.st-container  .recipient-wrap .addr .city {
 	width: 57px;
 	margin-right: 20px;
 }
-.st-container .addr .area {
+.st-container  .recipient-wrap .addr .area {
 	width: 46px;
 }
-.st-container .detail {
+.st-container .recipient-wrap  .detail {
 	display: block;
 	position: absolute;
 	width: 342px;
@@ -559,7 +575,7 @@ body {
 	left: 380px;
 	text-align: left;
 }
-.st-container .phone {
+.st-container  .recipient-wrap .phone {
 	position: absolute;
 	width: 247px;
 	top: 225px;
@@ -592,4 +608,28 @@ body {
 }
 .st-container .time .month ,.st-container .time .day {
 	width: 23px;
+}
+.st-container .sender-wrap .name {
+	position: absolute;
+	top: 130px;
+	left: 70px;
+	width: 145px;
+}
+.st-container .sender-wrap .addr {
+	position: absolute;
+	top: 152px;
+	left: 57px;
+}
+.st-container .sender-wrap .addr span {
+	margin-right: 40px;
+}
+.st-container .sender-wrap .detail {
+	position: absolute;
+	top: 171px;
+	left: 0px;
+}
+.st-container .sender-wrap .phone {
+	position: absolute;
+	top: 198px;
+	left: 76px;	
 }
