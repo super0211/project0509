@@ -457,15 +457,16 @@ body {
 	/*background: #ccc;*/
 	color: #000;
 }
+/*顺丰快递单*/
 .sf-container .name {
 	position: absolute;
-	top: 202px;
-	left: 361px;
+	top: 205px;
+	left: 293px;
 }
 .sf-container .addr {
 	position: absolute;
 	top: 228px;
-	left: 114px;
+	left: 57px;
 }
 .sf-container .addr span {
 	display: inline-block;
@@ -484,33 +485,33 @@ body {
 	display: block;
 	position: absolute;
 	width: 342px;
-	top: 255px;
-	left: 95px;
+	top: 259px;
+	left: 19px;
 	text-align: left;
 }
 .sf-container .phone {
 	position: absolute;
 	width: 285px;
-	top: 282px;
-	left: 152px;
+	top: 285px;
+	left: 76px;
 	text-align: left;
 }
 .sf-container .goods-info {
 	position: absolute;
-	top: 327px;
-	left: 95px;
+	top: 331px;
+	left: 19px;
 	width: 95px;
 	text-align: left;
 }
 .sf-container .num {
 	position: absolute;
-	top: 350px;
-	left: 236px;
+	top: 353px;
+	left: 160px;
 }
 .sf-container .time {
 	position: absolute;
-	top: 435px;
-	left: 302px;
+	top: 441px;
+	left: 38px;
 	font-style: italic;
 }
 .sf-container .time span {
@@ -521,4 +522,65 @@ body {
 }
 .sf-container .time .day {
 	width: 30px;
+}
+/*申通快递单*/
+.st-container .name {
+	position: absolute;
+	top: 114px;
+	left: 437px;
+}
+.st-container .addr {
+	position: absolute;
+	top: 171px;
+	left: 418px;
+}
+.st-container .addr span {
+	display: inline-block;
+	text-align: center;
+}
+.st-container .addr .province {
+	width: 57px;
+}
+.st-container .addr .city {
+	width: 57px;
+}
+.st-container .addr .area {
+	width: 46px;
+}
+.st-container .detail {
+	display: block;
+	position: absolute;
+	width: 342px;
+	top: 194px;
+	left: 380px;
+	text-align: left;
+}
+.st-container .phone {
+	position: absolute;
+	width: 247px;
+	top: 456px;
+	left: 217px;
+	text-align: left;
+}
+.st-container .goods-info {
+	position: absolute;
+	top: 262px;
+	left: 152px;
+	width: 198px;
+	text-align: left;
+}
+.st-container .num {
+	position: absolute;
+	top: 285px;
+	left: 209px;
+}
+.st-container .time {
+	position: absolute;
+	top: 118px;
+	left: 209px;
+	font-style: italic;
+}
+.st-container .time span {
+	display: inline-block;
+	width: 23px;
 }
