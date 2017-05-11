@@ -445,191 +445,39 @@ template {
 [hidden] {
   display: none;
 }
-
-body {
-	font-family: "微软雅黑";
-	font-size: 12px;
-}
-.print-container {
-	position: relative;
-	width: 870px;
-	height: 482px;
-	/*background: #ccc;*/
-	color: #000;
-}
-/*顺丰快递单*/
-.sf-container  .recipient-wrap .name {
-	position: absolute;
-	top: 210px;
-	left: 293px;
-}
-.sf-container  .recipient-wrap .addr {
-	position: absolute;
-	top: 235px;
-	left: 40px;
-}
-.sf-container  .recipient-wrap .addr span {
-	display: inline-block;
-	text-align: center;
-}
-.sf-container  .recipient-wrap .addr .province {
-	width: 110px;
-}
-.sf-container  .recipient-wrap .addr .city {
-	width: 68px;
-}
-.sf-container  .recipient-wrap .addr .area {
-	width: 57px;
-}
-.sf-container  .recipient-wrap .detail {
-	display: block;
-	position: absolute;
-	width: 342px;
-	top: 265px;
-	left: 0px;
-	text-align: left;
-}
-.sf-container .recipient-wrap .phone {
-	position: absolute;
-	width: 285px;
-	top: 298px;
-	left: 76px;
-	text-align: left;
-}
-.sf-container .goods-info {
-	position: absolute;
-	top: 352px;
-	left: 0px;
-	width: 95px;
-	text-align: left;
-}
-.sf-container .num {
-	position: absolute;
-	top: 370px;
-	left: 160px;
-}
-.sf-container .time {
-	position: absolute;
-	top: 480px;
-	left: 25px;
-	font-style: italic;
-}
-.sf-container .time span {
-	display: inline-block;
-	text-align: center;
-	margin-right: 25px;
-}
-.sf-container .time .month {
-	width: 38px;
-}
-.sf-container .time .day {
-	width: 30px;
-}
-.sf-container .sender-wrap .name {
-	position: absolute;
-	top: 122px;
-	left: 84px;
-	width: 145px;
-}
-.sf-container .sender-wrap .addr {
-	position: absolute;
-	top: 148px;
-	left: 38px;
-}
-.sf-container .sender-wrap .phone {
-	position: absolute;
-	top: 179px;
-	left: 76px;	
-}
-/*申通快递单*/
-.st-container .recipient-wrap .name {
-	position: absolute;
-	top: 112px;
-	left: 437px;
-}
-.st-container  .recipient-wrap .addr {
-	position: absolute;
-	top: 170px;
-	left: 418px;
-}
-.st-container  .recipient-wrap .addr span {
-	display: inline-block;
-	text-align: center;
-	margin-right: 20px;
-}
-.st-container  .recipient-wrap .addr .province {
-	width: 57px;
-}
-.st-container  .recipient-wrap .addr .city {
-	width: 57px;
-	margin-right: 20px;
-}
-.st-container  .recipient-wrap .addr .area {
-	width: 46px;
-}
-.st-container .recipient-wrap  .detail {
-	display: block;
-	position: absolute;
-	width: 342px;
-	top: 194px;
-	left: 380px;
-	text-align: left;
-}
-.st-container  .recipient-wrap .phone {
-	position: absolute;
-	width: 247px;
-	top: 225px;
-	left: 456px;
-	text-align: left;
-}
-.st-container .goods-info {
-	position: absolute;
-	top: 265px;
-	left: 140px;
-	width: 198px;
-	text-align: left;
-}
-.st-container .num {
-	position: absolute;
-	top: 295px;
-	left: 200px;
-}
-.st-container .time {
-	position: absolute;
-	top: 112px;
-	left: 186px;
-	font-style: italic;
-}
-.st-container .time span {
-	display: inline-block;
-	width: 23px;
-	text-align: center;
-	margin-right: 20px;
-}
-.st-container .time .month ,.st-container .time .day {
-	width: 23px;
-}
-.st-container .sender-wrap .name {
-	position: absolute;
-	top: 130px;
-	left: 70px;
-	width: 145px;
-}
-.st-container .sender-wrap .addr {
-	position: absolute;
-	top: 152px;
-	left: 57px;
-}
-.st-container .sender-wrap .addr span {
-	margin-right: 40px;
-}
-.st-container .sender-wrap .detail {
-	position: absolute;
-	top: 171px;
-	left: 0px;
-}
-.st-container .sender-wrap .phone {
-	position: absolute;
-	top: 198px;
-	left: 76px;	
-}
+body{font-family:"微软雅黑";font-size:9pt}
+.print-container{position:relative;width:870px;height:482px;color:#000}
+.ui-sf-recipient-name{position:absolute;top:210px;left:293px}
+.ui-sf-recipient-addr{position:absolute;top:235px;left:40px}
+.ui-sf-recipient-addr span{display:inline-block;text-align:center}
+.ui-sf-recipient-addr-province{width:110px}
+.ui-sf-recipient-addr-city{width:68px}
+.ui-sf-recipient-addr-area{width:57px}
+.ui-sf-recipient-detail{display:block;position:absolute;width:342px;top:265px;left:0;text-align:left}
+.ui-sf-recipient-phone{position:absolute;width:285px;top:298px;left:76px;text-align:left}
+.ui-sf-goods-info{position:absolute;top:22pc;left:0;width:95px;text-align:left}
+.ui-sf-goods-num{position:absolute;top:370px;left:10pc}
+.ui-sf-time{position:absolute;top:5in;left:25px;font-style:italic}
+.ui-sf-time span{display:inline-block;text-align:center;margin-right:25px}
+.ui-sf-time-month{width:38px}
+.ui-sf-time-day{width:30px}
+.ui-sf-sender-name{position:absolute;top:122px;left:84px;width:145px}
+.ui-sf-sender-addr{position:absolute;top:148px;left:38px}
+.ui-sf-sender-phone{position:absolute;top:179px;left:76px}
+.ui-st-recipient-name{position:absolute;top:7pc;left:437px}
+.ui-st-recipient-addr{position:absolute;top:170px;left:418px}
+.ui-st-recipient-addr span{display:inline-block;text-align:center;margin-right:20px}
+.ui-st-recipient-addr-province{width:57px}
+.ui-st-recipient-addr-city{width:57px;margin-right:20px}
+.ui-st-recipient-addr-area{width:46px}
+.ui-st-recipient-detail{display:block;position:absolute;width:342px;top:194px;left:380px;text-align:left}
+.ui-st-recipient-phone{position:absolute;width:247px;top:225px;left:456px;text-align:left}
+.ui-st-goods-info{position:absolute;top:265px;left:140px;width:198px;text-align:left}
+.ui-st-goods-num{position:absolute;top:295px;left:200px}
+.ui-st-time{position:absolute;top:7pc;left:186px;font-style:italic}
+.ui-st-time span{display:inline-block;width:23px;text-align:center;margin-right:20px}
+.ui-st-sender-name{position:absolute;top:130px;left:70px;width:145px}
+.ui-st-sender-addr{position:absolute;top:152px;left:57px}
+.ui-st-sender-addr span{margin-right:40px}
+.ui-st-sender-detail{position:absolute;top:171px;left:0}
+.ui-st-sender-phone{position:absolute;top:198px;left:76px}
